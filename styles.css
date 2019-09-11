@@ -1,0 +1,57 @@
+body{
+    background-image: url(assets/topography.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.baseText{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*header*/
+#header {
+    background-color: #333333;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    margin: 0% 10%;
+}
+#links{
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+a{
+    margin: 0 3.5%;
+    color: #ff0099;
+}
+
+/*Szöveges tartalom*/
+#content{
+    padding: 50px 10%;
+}
+
+/*Szamélyes infók*/
+#job h1{
+    font-size: 50px;
+}
+h2{
+    color:#ff0099;
+}
+
+/*tech leírások*/
+#techTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+dt{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+dd{
+    font-size: 16px;
+}
